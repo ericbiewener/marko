@@ -179,7 +179,7 @@ export function trackReferencesForBinding(babelBinding: t.Binding) {
   }
 }
 
-function* getBindingIdentifiers(
+export function* getBindingIdentifiers(
   lVal: t.LVal,
   property?: Opt<string>,
 ): Generator<{
